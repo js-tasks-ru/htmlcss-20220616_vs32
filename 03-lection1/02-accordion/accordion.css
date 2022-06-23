@@ -1,4 +1,8 @@
 /* Стилизация аккордеона */
+.accordion__summary, .accordion__text {
+    font-family: 'Inter';
+}
+
 .accordion__summary {
     color: var(--black);
     display: inline;
