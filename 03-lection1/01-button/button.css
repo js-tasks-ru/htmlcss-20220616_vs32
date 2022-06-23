@@ -33,12 +33,6 @@
     background-color: var(--purple-hover);
 }
 
-.button:disabled:not(.button_alternate) {
-    color: rgba(255, 255, 255, 0.5);
-    pointer-events: none;
-    opacity: 0.5;
-}
-
 .button_alternate {
     padding: 14px 31px 13px;
     background-color: transparent;
@@ -52,8 +46,14 @@
     border-color: var(--black);
 }
 
-.button_alternate:disabled {
+.button:disabled {
+    color: rgba(255, 255, 255, 0.5);
     pointer-events: none;
+    opacity: 0.5;
+}
+
+.button_alternate:disabled {
+    color: var(--grey-4);
     opacity: 0.3;
 }
   
