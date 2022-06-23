@@ -33,7 +33,7 @@
     background-color: var(--purple-hover);
 }
 
-.button_disabled {
+.button:disabled:not(.button_alternate) {
     color: rgba(255, 255, 255, 0.5);
     pointer-events: none;
     opacity: 0.5;
@@ -52,7 +52,7 @@
     border-color: var(--black);
 }
 
-.button_alternate_disabled {
+.button_alternate:disabled {
     pointer-events: none;
     opacity: 0.3;
 }
