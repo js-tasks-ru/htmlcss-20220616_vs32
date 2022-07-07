@@ -13,6 +13,13 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --grey-5: #90A0B7;
+    --dark: #334D6E;
+    --another-purple: #4263EB;
+
+
+    --light-text: var(--grey-5);
+    --dark-text: var(--dark);
 
     --error: var(--red);
     --success: var(--blue);
