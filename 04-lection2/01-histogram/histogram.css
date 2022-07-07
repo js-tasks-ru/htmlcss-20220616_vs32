@@ -13,12 +13,12 @@
     justify-content: space-between;
 }
 
-.histogram__upper_tittle {
+.histogram__tittle {
     opacity: 0.8;
     font-family: 'Inter';
 }
 
-.histogram__upper_link {
+.histogram__link {
     color: var(--purple-2);
     font-family: 'Inter';
     text-decoration: none;
@@ -38,7 +38,7 @@
     gap: 1px;
 }
 
-.histogram__body_item {
+.histogram__item {
     background-color: var(--purple-2);
     align-self: flex-end;
     flex: auto;
