@@ -41,7 +41,7 @@
 }
 
 .calendar__item_active {
-    background-color: var(--another-purple);
+    background-color: var(--purple-2);
     color: var(--white);
 }
 
