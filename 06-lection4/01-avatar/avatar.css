@@ -1,8 +1,9 @@
 .avatar {
-    max-width: 100px;
+    width: 100px;
+    height: 100px;
 }
 
-.avatar_img {
+.avatar__img {
     width: 100%;
     height: 100%;
     object-fit: cover;
